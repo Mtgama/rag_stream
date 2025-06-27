@@ -1,0 +1,15 @@
+pdfplumber
+langchain
+faiss-cpu
+sentence-transformers
+chainlit
+transformers
+torch
+huggingface-hub
+torch
+sentence-transformers
+streamlit
+openai>=1.0.0
+numpy
+pandas
+python-markdown
