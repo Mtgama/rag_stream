@@ -10,11 +10,11 @@ import tempfile
 import torch
 
 # تنظیم کلید API برای OpenAI و Aval AI
-openai.api_key = "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"  # کلید API برای چت
+openai.api_key = "open ai key"  # کلید API برای چت
 try:
     avalai_client = openai.OpenAI(
         base_url="https://api.avalai.ir/v1",
-        api_key="aa-p1CZqsHEt317KY2ZLBZTN0atr5MlMUNh7yytaOEAzbvtHEfS"  # کلید API برای Aval AI
+        api_key="aval ai key"  # کلید API برای Aval AI
     )
 except AttributeError:
     st.error("کتابخانه openai از ساختار OpenAI پشتیبانی نمی‌کند. لطفاً نسخه openai را به‌روزرسانی کنید یا مستندات Aval AI را بررسی کنید.")
